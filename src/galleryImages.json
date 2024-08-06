@@ -1,0 +1,133 @@
+{
+    "wedding" : [
+        {
+            "id": "wedding-one",
+            "title": "Wedding",
+            "img": "/1.webp"
+        },
+        {
+            "id": "wedding-two",
+            "title": "Wedding",
+            "img": "/2.jpg"
+        },
+        {
+            "id": "wedding-three",
+            "title": "Wedding",
+            "img": "/3.webp"
+        },
+        {
+            "id": "wedding-four",
+            "title": "Wedding",
+            "img": "/4.jpeg"
+        },
+        {
+            "id": "wedding-five",
+            "title": "Wedding",
+            "img": "/5.jpg"
+        },
+        {
+            "id": "wedding-six",
+            "title": "Wedding",
+            "img": "/6.webp"
+        },
+        {
+            "id": "wedding-seven",
+            "title": "Wedding",
+            "img": "/7.jpg"
+        },
+        {
+            "id": "wedding-eight",
+            "title": "Wedding",
+            "img": "/8.jpg"
+        },
+        {
+            "id": "wedding-nine",
+            "title": "Wedding",
+            "img": "/9.jpg"
+        },
+        {
+            "id": "wedding-ten",
+            "title": "Wedding",
+            "img": "/10.jpg"
+        }
+    ],
+
+    "wildlife" : [
+        {
+            "id": "wildlife-one",
+            "title": "Wildlife",
+            "img": "/6.webp"
+        },
+        {
+            "id": "wildlife-two",
+            "title": "Wildlife",
+            "img": "/5.jpg"
+        },
+        {
+            "id": "wildlife-eight",
+            "title": "Wildlife",
+            "img": "/7.jpg"
+        },
+        {
+            "id": "wildlife-three",
+            "title": "Wildlife",
+            "img": "/1.webp"
+        },
+        {
+            "id": "wildlife-four",
+            "title": "Wildlife",
+            "img": "/4.jpeg"
+        },
+        {
+            "id": "wildlife-five",
+            "title": "Wildlife",
+            "img": "/2.jpg"
+        },
+        {
+            "id": "wildlife-six",
+            "title": "Wildlife",
+            "img": "/3.webp"
+        },
+        {
+            "id": "wildlife-seven",
+            "title": "Wildlife",
+            "img": "/8.jpg"
+        },
+        {
+            "id": "wildlife-ten",
+            "title": "Wildlife",
+            "img": "/10.jpg"
+        },
+        {
+            "id": "wildlife-nine",
+            "title": "Wildlife",
+            "img": "/9.jpg"
+        }
+    ],
+
+    "party" : [
+        {
+            "id": "rbl-bank",
+            "title": "RBL Bank",
+            "img": "/rbl.png"
+        },
+        {
+            "id": "yes-bank",
+            "title": "YES Bank",
+            "img": "/yesbank.png"
+        }
+    ],
+
+    "function" : [
+        {
+            "id": "rbl-bank",
+            "title": "RBL Bank",
+            "img": "/rbl.png"
+        },
+        {
+            "id": "yes-bank",
+            "title": "YES Bank",
+            "img": "/yesbank.png"
+        }
+    ]
+}
