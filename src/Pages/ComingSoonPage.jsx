@@ -1,9 +1,10 @@
 import React from 'react'
+import ComingSoonImage from '/comingSoon.png'
 
 const ComingSoonPage = () => {
   return (
-    <div className='mt-32'>
-      <h1>Coming Soon!</h1>
+    <div className='flex justify-center items-center px-10 min-h-[100vh]'>
+      <img src={ComingSoonImage} alt="" />
     </div>
   )
 }
