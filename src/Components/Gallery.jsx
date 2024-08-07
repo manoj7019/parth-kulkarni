@@ -15,7 +15,7 @@ const Gallery = () => {
       setImages(data);
       setLoading(false);
     }
-    fetchImages()
+    fetchImages() 
   }, [])
 
   useEffect(() => {
