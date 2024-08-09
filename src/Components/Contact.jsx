@@ -43,7 +43,7 @@ const Contact = () => {
               options
           )
           if(res) {
-              alert('Query submitted!')
+              alert('Message sent!')
           } else {
               alert('Error occured')
           }
@@ -57,49 +57,48 @@ const Contact = () => {
           <div className='flex flex-col laptop:gap-12 mobile:gap-6 laptop:w-1/2 mobile:w-full'>
             <div className='flex flex-col laptop:gap-4 mobile:gap-2'>
               <h1 className='text-black laptop:text-5xl mobile:text-3xl font-semibold'>Contact me</h1>
-              <h2 className='text-black laptop:text-2xl mobile:text-xl font-light'>Anytime. Any media. Anywhere.</h2>
+              <h2 className='text-black laptop:text-2xl mobile:text-xl font-light'>I'm just a text away.</h2>
             </div>
             <form action="POST">
               <div className='flex flex-col laptop:gap-8 mobile:gap-6'>
-                <input 
+                <input required
                     className='border-b-2 h-10 p-2 hover:bg-gray-50'
                     placeholder='Name'
                     name='FullName' 
                     value={user.FullName}
                     type="text"
-                    onChange={data}
-                    required />
-                <input 
+                    autoComplete='on'
+                    onChange={data}/>
+                <input required
                     className='border-b-2 h-10 p-2'
                     placeholder='Email'
                     name='Email'
                     value={user.Email}
                     type="text"
-                    onChange={data}
-                    required />
-                <input 
+                    autoComplete='on'
+                    onChange={data}/>
+                <input required
                     className='border-b-2 h-10 p-2'
                     placeholder='Phone'
                     name='Phone'
                     value={user.Phone}
-                    type="text" 
-                    onChange={data}
-                    required/>
-                <textarea
+                    type="text"
+                    autoComplete='on'
+                    onChange={data}/>
+                <textarea required
                     className='border-b-2 h-20 p-2'
                     placeholder='Message'
                     name='Message' 
                     value={user.Message}
-                    onChange={data}
-                    required />
-                <button className='flex items-center justify-center gap-2 bg-red-500 text-white p-2 px-10 rounded-xl hover:bg-white hover:text-red-500' 
+                    onChange={data}/>
+                <button type='submit' className='flex items-center justify-center gap-2 bg-red-500 text-white p-2 px-10 rounded-xl hover:bg-white hover:text-red-500' 
                 onClick={getData}>Send</button>
                 </div>
               </form>
           </div>
 
           <div className='flex flex-col justify-between gap-6 laptop:p-16 mobile:p-6 laptop:mb-0 mobile:mb-12 border-2 rounded-xl laptop:w-1/2 mobile:w-full'>
-            <h2 className='text-black text-3xl font-semibold pb-4'>Get In Touch</h2>
+            <h2 className='text-black text-3xl font-semibold pb-4'>Stay Connected.</h2>
             <a href='https://www.instagram.com/partofparth?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className='flex items-center gap-4 hover:underline hover:text-red-500'>
                 <InstagramIcon fontSize='medium'/>
                 <h2 className='text-xl font-normal'>partofparth</h2>
@@ -116,9 +115,9 @@ const Contact = () => {
                 <MailOutlineIcon fontSize='medium'/>
                 <h2 className='text-xl font-normal'>partofparth@gmail.com</h2>
             </a>
-            <a href='' className='flex items-center gap-4 hover:underline hover:text-red-500'>
+            <a href='https://maps.app.goo.gl/EwyQLRLqA9UxAied8' className='flex items-center gap-4 hover:underline hover:text-red-500'>
                 <RoomOutlinedIcon fontSize='medium'/>
-                <h2 className='text-xl font-normal'>#007, Sri Mylaralingeshwara nilaya, Acharlahalli, Doddaballapur, Bengaluru rural - 561205</h2>
+                <h2 className='text-xl font-normal'>Kamod Nagar, Indira Nagar, Nashik, Maharashtra 422009</h2>
             </a>
           </div>
         </div>

@@ -26,17 +26,17 @@ const HomeGallery = () => {
         <div className='grid laptop:grid-cols-2 mobile:grid-cols-1 laptop:gap-24 mobile:gap-10 laptop:p-16 mobile:p-4 mobile:mt-6'>
         <Link to='/gallery'>
           <div className='flex flex-col gap-6 hover:underline'>
-            <div className='flex rounded-3xl h-300 w-300'>
+            <div className='flex rounded-3xl h-300 w-300 gap-0.5'>
               <img src={Gallery1Image} className='object-cover h-100% flex-2 rounded-l-3xl w-1/2'/>
-              <div className='flex flex-col flex-1'>
+              <div className='flex flex-col flex-1 gap-0.5'>
                 <img src={Gallery2Image} className='object-cover rounded-tr-3xl'/>
                 <img src={Gallery3Image} className='object-cover rounded-br-3xl'/>
               </div>
             </div>
               <div className='flex items-center gap-3'>
-                <img src={Gallery1Image} className='laptop:h-12 mobile:h-10 laptop:w-12 mobile:w-10 rounded-3xl' alt="" />
+                <img src={Gallery1Image} className='object-cover laptop:h-12 mobile:h-10 laptop:w-12 mobile:w-10 rounded-3xl' alt="" />
                 <div className='flex flex-col'>
-                  <h2 className='laptop:text-xl mobile:text-lg font-semibold'>Party collections</h2>
+                  <h2 className='laptop:text-xl mobile:text-lg font-semibold'>Wedding collections</h2>
                   <p className='laptop:text-lg mobile:text-sm'>Have a look at them. They're cool!</p>
                 </div>
               </div>
@@ -44,15 +44,15 @@ const HomeGallery = () => {
         </Link>
         <Link to='/gallery'>
           <div className='flex flex-col gap-6 hover:underline'>
-            <div className='flex rounded-3xl h-300 w-300'>
-              <img src={Gallery1Image} className='object-cover h-100% flex-2 rounded-l-3xl w-1/2'/>
-              <div className='flex flex-col flex-1'>
-                <img src={Gallery2Image} className='object-cover rounded-tr-3xl'/>
-                <img src={Gallery3Image} className='object-cover rounded-br-3xl'/>
+            <div className='flex rounded-3xl h-300 w-300 gap-0.5'>
+              <img src={Gallery4Image} className='object-cover h-100% flex-2 rounded-l-3xl w-1/2'/>
+              <div className='flex flex-col flex-1 gap-0.5'>
+                <img src={Gallery5Image} className='object-cover rounded-tr-3xl'/>
+                <img src={Gallery8Image} className='object-cover rounded-br-3xl'/>
               </div>
             </div>
               <div className='flex items-center gap-3'>
-                <img src={Gallery1Image} className='laptop:h-12 mobile:h-10 laptop:w-12 mobile:w-10 rounded-3xl' alt="" />
+                <img src={Gallery5Image} className='object-cover laptop:h-12 mobile:h-10 laptop:w-12 mobile:w-10 rounded-3xl' alt="" />
                 <div className='flex flex-col'>
                   <h2 className='laptop:text-xl mobile:text-lg font-semibold'>Party collections</h2>
                   <p className='laptop:text-lg mobile:text-sm'>Have a look at them. They're cool!</p>

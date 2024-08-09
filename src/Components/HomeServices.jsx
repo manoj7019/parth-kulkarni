@@ -21,7 +21,7 @@ const HomeServices = () => {
               </div>
                 <div className='flex flex-col items-center gap-2'>
                   <h2 className='text-xl font-semibold'>Photography</h2>
-                  <p className='text-center'>Have a look at them. They're cool!</p>
+                  <p className='text-center'>Takes cool pictures of your precious moments and make them last!</p>
                 </div>
             </div>
           </Link>
@@ -33,7 +33,7 @@ const HomeServices = () => {
               </div>
                 <div className='flex flex-col items-center gap-2'>
                   <h2 className='text-xl font-semibold'>Videography</h2>
-                  <p className='text-center'>Have a look at them. They're cool!</p>
+                  <p className='text-center'>Record your joyful instances, keep them lively and make them breathe forever.</p>
                 </div>
             </div>
           </Link>
@@ -44,7 +44,7 @@ const HomeServices = () => {
               </div>
                 <div className='flex flex-col items-center gap-2'>
                   <h2 className='text-xl font-semibold'>Video Editing</h2>
-                  <p className='text-center'>Have a look at them. They're cool!</p>
+                  <p className='text-center'>Adds happiness to your cheerful occasions by enhancing them with vibrance.</p>
                 </div>
             </div>
           </Link>

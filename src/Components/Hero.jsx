@@ -1,6 +1,6 @@
 import React from 'react'
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
-import HeroImage from '/hero.png'
+import HeroImage from '/hero3.webp'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'react-router-dom';
 import Loader from './Loader';
@@ -24,7 +24,7 @@ const Hero = () => {
       <div className='flex laptop:flex-row mobile:flex-col mobile:gap-8 justify-between laptop:mx-16 mobile:mx-4 laptop:mt-36 mobile:mt-28'>
         <div className='flex flex-col justify-center items-start laptop:gap-4 mobile:gap-2 laptop:w-1/2 mobile:w-full'>
           <h1 className='laptop:text-8xl mobile:text-5xl font-semibold'>Capturing the moments</h1>
-          <h2 className='laptop:text-4xl mobile:text-2xl font-medium'>that captivate your heart.</h2>
+          <h2 className='laptop:text-4xl mobile:text-2xl font-medium'>that captivate your heart and making them immortal.</h2>
           <div className='flex items-center gap-5 mt-6'>
             <AnchorLink href='#homeGallery'>
               <button className='flex items-center gap-2 bg-red-500 text-white p-2 px-10 rounded-xl hover:bg-white hover:text-red-500'>Explore <ArrowCircleRightIcon/> </button>

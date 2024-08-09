@@ -99,7 +99,7 @@ const Navbar = () => {
 
         {showDropdown && 
             <div className='laptop:hidden mobile:absolute min-h-[100vh] left-0 top-[100%] w-full px-1'>
-                <div className='flex flex-col flex-8 justify-between items-center bg-gray-50 gap-8 px-5 py-5 rounded-lg mx-2 z-50'>
+                <div className='flex flex-col flex-8 justify-between items-center bg-gray-50 gap-10 px-5 py-8 rounded-b-lg mx-2 z-50'>
                     <NavLink to='/gallery' onClick={handleSetShowDropdown} className='flex items-center gap-1 hover:text-red-500 hover:bg-gray-50 rounded-xl px-4'>
                         <button className='flex items-center gap-2'><CollectionsIcon/> My Gallery</button>
                     </NavLink>
