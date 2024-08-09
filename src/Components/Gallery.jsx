@@ -2,31 +2,39 @@ import React from 'react'
 import GalleryImages from '../galleryImages.json'
 import { useState, useEffect } from 'react';
 import { ColorRing } from 'react-loader-spinner';
+import { Link } from 'react-router-dom';
 
 const Gallery = () => {
-  const [images, setImages] = useState([]);
-  const [wildImages, setWildImages] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [images, setImages] = useState([]);
+  // const [wildImages, setWildImages] = useState([]);
+  // const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   const fetchImages = async () => {
+  //     const res = await fetch('http://localhost:8000/wedding')
+  //     const data = await res.json();
+  //     setImages(data);
+  //     setLoading(false);
+  //   }
+  //   fetchImages() 
+  // }, [])
 
-  useEffect(() => {
-    const fetchImages = async () => {
-      const res = await fetch('http://localhost:8000/wedding')
-      const data = await res.json();
-      setImages(data);
-      setLoading(false);
-    }
-    fetchImages() 
-  }, [])
+  // useEffect(() => {
+  //   const fetchImages = async () => {
+  //     const res = await fetch('http://localhost:8000/wildlife')
+  //     const data = await res.json();
+  //     setWildImages(data);
+  //     setLoading(false);
+  //   }
+  //   fetchImages()
+  // }, [])
 
-  useEffect(() => {
-    const fetchImages = async () => {
-      const res = await fetch('http://localhost:8000/wildlife')
-      const data = await res.json();
-      setWildImages(data);
-      setLoading(false);
-    }
-    fetchImages()
-  }, [])
+    const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000)
+    }, [])
 
   return (
     <div className=''>
@@ -43,19 +51,21 @@ const Gallery = () => {
         <>
         <div className='grid laptop:grid-cols-3 laptop:grid-row-5 laptop:gap-5 mobile:gap-3 laptop:p-20 mobile:p-4'>
           <div className='flex flex-col laptop:gap-5 mobile:gap-3'>
-            {images.map(weddingImage =>
+            {GalleryImages.wedding.map(weddingImage =>
               <img key={weddingImage.id}
                 src={weddingImage.img} className=''/>
             )}
           </div>
           <div className='flex flex-col laptop:gap-5 mobile:gap-3'>
-            {wildImages.map(wildlifeImage =>
+            {GalleryImages.wildlife.map(wildlifeImage =>
+            // <Link to={`/${wildlifeImage.id}`} >
               <img key={wildlifeImage.id}
-                src={wildlifeImage.img} className=''/>
+                src={wildlifeImage.img} className='' />
+            // </Link>
             )}
           </div>
           <div className='flex flex-col laptop:gap-5 mobile:gap-3'>
-            {images.map(weddingImage =>
+            {GalleryImages.wedding.map(weddingImage =>
               <img key={weddingImage.id}
                 src={weddingImage.img} className=''/>
             )}

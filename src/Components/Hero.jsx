@@ -3,8 +3,22 @@ import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 import HeroImage from '/hero.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'react-router-dom';
+import Loader from './Loader';
+import { useState, useEffect } from 'react';
 
 const Hero = () => {
+  // const [loading, setLoading] = useState(true);
+  
+  //   useEffect(() => {
+  //     setTimeout(() => {
+  //       setLoading(false);
+  //     }, 1500)
+  //   }, [])
+
+  //   if(loading) {
+  //     return <Loader />
+  //   }
+
   return (
     <div id='hero'>
       <div className='flex laptop:flex-row mobile:flex-col mobile:gap-8 justify-between laptop:mx-16 mobile:mx-4 laptop:mt-36 mobile:mt-28'>
