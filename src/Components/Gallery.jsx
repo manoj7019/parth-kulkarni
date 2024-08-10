@@ -37,10 +37,11 @@ const Gallery = () => {
     }, [])
 
   return (
-    <div className=''>
-      <div className='flex flex-col items-center laptop:gap-4 mobile:gap-2 bg-gray-50 laptop:p-20 mobile:p-4 mobile:py-10'>
-        <h1 className='text-black laptop:text-5xl mobile:text-3xl font-semibold'>My Gallery</h1>
-        <h2 className='text-black laptop:text-2xl mobile:text-xl font-light text-center'>Elegant. Vivacious. Unforgettable.</h2>
+    <div className='bg-black text-white'>
+      {/* <div className='flex flex-col items-center laptop:gap-4 mobile:gap-2 bg-gray-50 laptop:p-20 mobile:p-4 mobile:py-10'> */}
+      <div className='flex flex-col items-center laptop:gap-4 mobile:gap-2 bg-black laptop:p-20 mobile:p-4 mobile:py-10'>
+        <h1 className='text-white laptop:text-5xl mobile:text-3xl font-semibold'>My Gallery</h1>
+        <h2 className='text-white laptop:text-2xl mobile:text-xl font-light text-center'>Elegant. Vivacious. Unforgettable.</h2>
       </div>
 
       {loading ? (

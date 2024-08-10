@@ -21,7 +21,8 @@ const HomePage = () => {
   //   }
 
   return (
-    <div>
+    // <div className='bg-black'>
+    <div className=''>
       <Hero />
       <HomeGallery />
       <HomeServices />

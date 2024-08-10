@@ -18,10 +18,11 @@ const HomeGallery = () => {
         setShowMore(!showMore);
     }
   return (
-    <div>
-        <div className='flex flex-col items-center laptop:gap-4 mobile:gap-2 bg-gray-50 laptop:p-20 mobile:p-4 mobile:py-16 mt-12'>
-        <h1 className='text-black laptop:text-5xl mobile:text-3xl font-semibold'>My Gallery</h1>
-        <h2 className='text-black laptop:text-2xl mobile:text-xl font-light text-center'>Elegant. Vivacious. Unforgettable.</h2>
+    <div className=''>
+        {/* <div className='flex flex-col items-center laptop:gap-4 mobile:gap-2 bg-gray-50 laptop:p-20 mobile:p-4 mobile:py-16 mt-12'> */}
+        <div className='flex flex-col items-center laptop:gap-4 mobile:gap-2 bg-black text-white laptop:p-20 mobile:p-4 mobile:py-12'>
+        <h1 className='text-white laptop:text-5xl mobile:text-3xl font-semibold'>My Gallery</h1>
+        <h2 className='text-white laptop:text-2xl mobile:text-xl font-light text-center'>Elegant. Vivacious. Unforgettable.</h2>
 
         <div className='grid laptop:grid-cols-2 mobile:grid-cols-1 laptop:gap-24 mobile:gap-10 laptop:p-16 mobile:p-4 mobile:mt-6'>
         <Link to='/gallery'>

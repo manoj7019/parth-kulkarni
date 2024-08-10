@@ -50,19 +50,19 @@ const Contact = () => {
       }
 
   return (
-    <div id='contact'>
+    <div id='contact' className='bg-black text-white'>
       {/* <div className='flex flex-col items-center gap-4 p-20'> */}
         <div className='flex laptop:flex-row mobile:flex-col justify-center items-center laptop:gap-20 mobile:gap-10 laptop:p-20 laptop:px-36 mobile:p-6'>
 
           <div className='flex flex-col laptop:gap-12 mobile:gap-6 laptop:w-1/2 mobile:w-full'>
             <div className='flex flex-col laptop:gap-4 mobile:gap-2'>
-              <h1 className='text-black laptop:text-5xl mobile:text-3xl font-semibold'>Contact me</h1>
-              <h2 className='text-black laptop:text-2xl mobile:text-xl font-light'>I'm just a text away.</h2>
+              <h1 className='text-white laptop:text-5xl mobile:text-3xl font-semibold'>Contact me</h1>
+              <h2 className='text-white laptop:text-2xl mobile:text-xl font-light'>I'm just a text away.</h2>
             </div>
             <form action="POST">
               <div className='flex flex-col laptop:gap-8 mobile:gap-6'>
                 <input required
-                    className='border-b-2 h-10 p-2 hover:bg-gray-50'
+                    className='border-b-2 h-10 p-2 bg-black hover:border-red-500'
                     placeholder='Name'
                     name='FullName' 
                     value={user.FullName}
@@ -70,7 +70,7 @@ const Contact = () => {
                     autoComplete='on'
                     onChange={data}/>
                 <input required
-                    className='border-b-2 h-10 p-2'
+                    className='border-b-2 h-10 p-2 bg-black hover:border-red-500'
                     placeholder='Email'
                     name='Email'
                     value={user.Email}
@@ -78,7 +78,7 @@ const Contact = () => {
                     autoComplete='on'
                     onChange={data}/>
                 <input required
-                    className='border-b-2 h-10 p-2'
+                    className='border-b-2 h-10 p-2 bg-black hover:border-red-500'
                     placeholder='Phone'
                     name='Phone'
                     value={user.Phone}
@@ -86,7 +86,7 @@ const Contact = () => {
                     autoComplete='on'
                     onChange={data}/>
                 <textarea required
-                    className='border-b-2 h-20 p-2'
+                    className='border-b-2 h-20 p-2 bg-black hover:border-red-500'
                     placeholder='Message'
                     name='Message' 
                     value={user.Message}
@@ -98,7 +98,7 @@ const Contact = () => {
           </div>
 
           <div className='flex flex-col justify-between gap-6 laptop:p-16 mobile:p-6 laptop:mb-0 mobile:mb-12 border-2 rounded-xl laptop:w-1/2 mobile:w-full'>
-            <h2 className='text-black text-3xl font-semibold pb-4'>Stay Connected.</h2>
+            <h2 className='text-white text-3xl font-semibold pb-4'>Stay Connected.</h2>
             <a href='https://www.instagram.com/partofparth?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className='flex items-center gap-4 hover:underline hover:text-red-500'>
                 <InstagramIcon fontSize='medium'/>
                 <h2 className='text-xl font-normal'>partofparth</h2>
