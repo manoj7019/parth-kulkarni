@@ -45,7 +45,7 @@ const Gallery = () => {
       </div>
 
       {loading ? (
-        <div className='flex justify-center items-center laptop:min-h-[50vh] mobile:min-h-[60vh]'>
+        <div className='flex justify-center items-center laptop:min-h-[50vh] mobile:min-h-[70vh]'>
           <ColorRing/>
         </div>) 
         : 
