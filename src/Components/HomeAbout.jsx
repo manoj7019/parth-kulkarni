@@ -21,7 +21,7 @@ const HomeAbout = () => {
               Just a normal passionate photographer who takes camera wherever I go and captures everything that catches my attention. Love to do all kinds of photoshoots ranging between two different polar ends. One is wedding and other one is wildlife. Not a big magician, but can do little magic with my capturing tool.
             </p>
             <Link to='/about'>
-              <button className='laptop:w-1/2 mobile:w-3/4 flex justify-center items-center gap-2 bg-red-500 text-white p-2 rounded-xl hover:bg-white hover:text-red-500 mobile:mt-2'>More about me  <ArrowCircleRightIcon/> </button>
+              <button className='laptop:w-1/2 mobile:w-3/4 flex justify-center items-center gap-2 bg-zinc-400 text-white p-2 rounded-xl hover:bg-white hover:text-zinc-400 mobile:mt-2'>More about me  <ArrowCircleRightIcon/> </button>
             </Link>
           </div>
         </div>

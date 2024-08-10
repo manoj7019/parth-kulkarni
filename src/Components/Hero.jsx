@@ -29,10 +29,10 @@ const Hero = () => {
           <h2 className='laptop:text-4xl mobile:text-2xl font-medium'>that captivate your heart and making them immortal.</h2>
           <div className='flex items-center gap-5 mt-6'>
             <AnchorLink href='#homeGallery'>
-              <button className='flex items-center gap-2 bg-red-500 text-white p-2 px-10 rounded-xl hover:bg-white hover:text-red-500'>Explore <ArrowCircleRightIcon/> </button>
+              <button className='flex items-center gap-2 bg-zinc-400 text-white p-2 px-10 rounded-xl hover:bg-white hover:text-zinc-400'>Explore <ArrowCircleRightIcon/> </button>
             </AnchorLink>
             <AnchorLink href='#contact'>
-              <button className='border-2 px-10 p-2 rounded-xl hover:border-red-500'>Hire me</button>
+              <button className='border-2 px-10 p-2 rounded-xl hover:border-zinc-400'>Hire me</button>
             </AnchorLink>
           </div>
         </div>

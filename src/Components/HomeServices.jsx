@@ -16,9 +16,9 @@ const HomeServices = () => {
 
           <Link to='*'>
             {/* <div className='flex flex-col items-center gap-8 rounded-2xl bg-gray-100 p-10 border-2 hover:bg-gray-200'> */}
-            <div className='flex flex-col items-center gap-8 rounded-2xl bg-black text-white p-10 border-2 hover:border-red-500'>
+            <div className='flex flex-col items-center gap-8 rounded-2xl bg-black text-white p-10 border-2 hover:border-zinc-400'>
               {/* <div className='text-red-500'> */}
-              <div className='text-white bg-red-500 p-5 rounded-xl'>
+              <div className='text-white bg-zinc-400 p-5 rounded-xl'>
                 <CameraEnhanceIcon fontSize='large'/>
               </div>
                 <div className='flex flex-col items-center gap-2'>
@@ -29,9 +29,9 @@ const HomeServices = () => {
           </Link>
           <Link to='*'>
             {/* <div className='flex flex-col items-center gap-8 rounded-2xl bg-gray-100 p-10 border-2 hover:bg-gray-200'> */}
-            <div className='flex flex-col items-center gap-8 rounded-2xl bg-black text-white p-10 border-2 hover:border-red-500'>
+            <div className='flex flex-col items-center gap-8 rounded-2xl bg-black text-white p-10 border-2 hover:border-zinc-400'>
               {/* <div className='text-red-500'> */}
-              <div className='text-white bg-red-500 p-5 rounded-xl'>
+              <div className='text-white bg-zinc-400 p-5 rounded-xl'>
                 <VideoCameraBackIcon fontSize='large'/>
               </div>
                 <div className='flex flex-col items-center gap-2'>
@@ -42,8 +42,8 @@ const HomeServices = () => {
           </Link>
           <Link to='*'>
             {/* <div className='flex flex-col items-center gap-8 rounded-2xl bg-gray-100 p-10 border-2 hover:bg-gray-200'> */}
-            <div className='flex flex-col items-center gap-8 rounded-2xl bg-black text-white p-10 border-2 hover:border-red-500'>
-              <div className='text-white bg-red-500 p-5 rounded-xl'>
+            <div className='flex flex-col items-center gap-8 rounded-2xl bg-black text-white p-10 border-2 hover:border-zinc-400'>
+              <div className='text-white bg-zinc-400 p-5 rounded-xl'>
                 <AutoFixHighIcon fontSize='large'/>
               </div>
                 <div className='flex flex-col items-center gap-2'>

@@ -47,10 +47,10 @@ const Navbar = () => {
       {/* <div className='fixed inset-x-0 z-50 top-0 flex justify-between items-center laptop:py-6 mobile:py-4 laptop:px-16 mobile:px-6 backdrop-blur-3xl bg-white/70'> */}
       <NavLink to='/'>
         <div className='flex flex-col'>
-          <h1 className='laptop:text-3xl mobile:text-xl font-bold'>PARTH KULKARN<span className='text-red-500'>!</span></h1>
+          <h1 className='laptop:text-3xl mobile:text-xl font-bold'>PARTH KULKARN<span className='text-zinc-400'>!</span></h1>
           <div className='flex items-center gap-1'>
-            <CameraAltIcon className='text-red-500'/>
-            <h2 className='laptop:text-xl mobile:text-base text-red-500 font-semibold'>A SHOOTER</h2>
+            <CameraAltIcon className='text-zinc-400'/>
+            <h2 className='laptop:text-xl mobile:text-base text-zinc-400 font-semibold'>A SHOOTER</h2>
           </div>
         </div>
       </NavLink>
@@ -73,16 +73,16 @@ const Navbar = () => {
         <div className='flex items-center'>              
             {isDesktop ?
             <div className='mobile:hidden laptop:flex laptop:gap-16'>
-                <NavLink to='/gallery' className='flex items-center gap-1 hover:text-red-500 hover:bg-gray-50 rounded-xl px-4'>
+                <NavLink to='/gallery' className='flex items-center gap-1 hover:text-zinc-400 rounded-xl px-4'>
                   <button className='flex items-center gap-2'><CollectionsIcon/> My Gallery</button>
                 </NavLink>
-                <NavLink to='/services' className='flex items-center gap-1 hover:text-red-500 hover:bg-gray-50 rounded-xl px-4'>
+                <NavLink to='/services' className='flex items-center gap-1 hover:text-zinc-400 rounded-xl px-4'>
                   <button className='flex items-center gap-2'><LinkedCameraIcon/> My services</button>
                 </NavLink>
-                <NavLink to='/about' className='flex items-center gap-1 hover:text-red-500 hover:bg-gray-50 rounded-xl px-4'>
+                <NavLink to='/about' className='flex items-center gap-1 hover:text-zinc-400 rounded-xl px-4'>
                   <button className='flex items-center gap-2'><InfoIcon/> About me</button>
                 </NavLink>
-                <NavLink to='/contact' className='bg-red-500 text-white p-2 px-10 rounded-xl hover:text-red-500 hover:bg-white hover:border-red-500'>
+                <NavLink to='/contact' className='bg-zinc-400 text-white p-2 px-10 rounded-xl hover:text-zinc-400 hover:bg-white hover:border-red-500'>
                   <button>Contact me</button>
                 </NavLink>
               </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 //     src={showDropdown ? `${CloseIcon}` : `${MenuIcon}`} 
                 //     onClick={handleSetShowDropdown}
                 // />
-                <h1 className='text-red-500 p-1'
+                <h1 className='text-zinc-400 p-1'
                  onClick={handleSetShowDropdown}>
                     {showDropdown? <CloseIcon fontSize='large'/> : <MenuIcon fontSize='large'/>}
                 </h1>

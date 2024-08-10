@@ -142,7 +142,7 @@ const HomeGallery = () => {
         {/* <Link to='/gallery'> */}
           <button id='homeServices'
           onClick={handleSetShowMore} 
-          className='flex items-center gap-2 bg-red-500 text-white p-2 px-10 mobile:mt-6 rounded-xl hover:bg-white hover:text-red-500'>{showMore ? 'Less Collections' : 'More Collections'}  <ArrowCircleRightIcon/> </button>
+          className='flex items-center gap-2 bg-zinc-400 text-white p-2 px-10 mobile:mt-6 rounded-xl hover:bg-white hover:text-zinc-400'>{showMore ? 'Less Collections' : 'More Collections'}  <ArrowCircleRightIcon/> </button>
         {/* </Link> */}
       </div>
       <p></p>
