@@ -112,7 +112,7 @@ const Navbar = () => {
                     <NavLink to='/about' onClick={handleSetShowDropdown} className='flex items-center gap-1 hover:text-red-500 hover:bg-gray-50 rounded-xl px-4'>
                         <button className='flex items-center gap-2'><InfoIcon/> About me</button>
                     </NavLink>
-                    <NavLink to='/contact' onClick={handleSetShowDropdown} className='bg-red-500 text-white p-2 px-10 rounded-xl hover:text-red-500 hover:bg-white hover:border-red-500'>
+                    <NavLink to='/contact' onClick={handleSetShowDropdown} className='bg-zinc-400 text-white p-2 px-10 rounded-xl hover:text-zinc-400 hover:bg-white hover:border-zinc-400'>
                         <button>Contact me</button>
                     </NavLink>
                 </div>
